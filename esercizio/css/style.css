@@ -135,6 +135,13 @@ img {
     width: 100%;
   }
 
+  body {
+    background-color: #232946ff;
+  }
+
+  .steps {
+    background-color: #eebbc3ff;
+  }
   .steps .col img {
     height: 185px;
   }
@@ -143,16 +150,36 @@ img {
 /* soluzioni per mobile da 480px  */
 
 @media screen and (max-width: 480px) {
+  /* main {
+    background-color: #222222;
+  } */
   .container {
     width: 100%;
   }
 
-  .steps .col img {
-    height: 200px;
-    margin-bottom: 1rem;
+  .row {
+    flex-direction: column;
+    align-items: center;
   }
-  .lessons .col img {
-    height: 200px;
-    margin-bottom: 1rem;
+
+  .lessons .col {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    padding: 3%;
+  }
+
+  .steps .col {
+    width: 100%;
+  }
+
+  .why-us .col-left {
+    width: 100%;
+  }
+  .why-us .col-right {
+    padding: 6%;
+    width: 100%;
   }
 }
