@@ -130,23 +130,29 @@ img {
 
 /* Soluzioni per il tablet da 768px  */
 
-@media screen and (min-width: 768px) {
-  .site-header {
-    display: flex;
-    justify-content: flex-end;
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
   }
 
-  h2 {
-    position: relative;
-    left: 30px;
-  }
-
-  .steps {
-    display: inline-block;
+  .steps .col img {
+    height: 185px;
   }
 }
 
 /* soluzioni per mobile da 480px  */
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .steps .col img {
+    height: 200px;
+    margin-bottom: 1rem;
+  }
+  .lessons .col img {
+    height: 200px;
+    margin-bottom: 1rem;
+  }
 }
